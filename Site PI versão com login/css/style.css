@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+.corpo{
+    height: 800px;
+    background-image: url(../IMG/fundo.png);
+    background-size: cover;
+    background-position: center bottom;
+    overflow: visible;
+}
+.logo img{
+    width: 350px;
+    height: 300px;
+    padding: 0;
+    display: inline-block;
+    margin-top: -60px;
+}
+.texto{
+    margin-top: 50px;
+    display: block;
+
+}
+.texto{
+    text-shadow: 1px 1px white;
+    font-family:  monospace;
+    color: white;
+    text-align: left;
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 0 0 0 150px;
+    margin-bottom: 0;
+    margin-left: -100px;
+}
+#codigo{
+    margin-top: 0;
+}
+.paragrafo{
+    font-size: 23px;
+    font-family: monospace;
+    color: white;
+    font-weight: bolder;
+    padding: 0 0 0 150px;
+    margin-left: -75px;
+    margin-top: 50px;
+}
+.botao{
+    display: inline-block;
+    top: 0;
+    width: 400px;
+    margin-left: 100px;
+}
+.botao a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 50px;
+    text-align: center;
+    background-color: #5271FF;
+    margin: 25px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 1px solid #5271FF;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px #aebdff;
+}
+#matricula{
+    background-color: #FF0000;
+    box-shadow: 2px 2px 5px #f85555;
+    border: 1px solid #FF0000;
+}
+.botao a:hover{
+    background-color: #2547df;
+    box-shadow: 2px 2px 5px #5574fa;
+}
+#matricula:hover{
+    background-color: #a50000;
+}
+.continuacao{
+    background-color: #080B25;
+    height: 1240px;
+    overflow: hidden;
+}
+#estiver{
+    margin-top: 0;
+}
+.op2 p{
+    margin-top: 150px;
+}
+.smartphone{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+#top{
+    margin-top: 200px;
+}
+.tablet{
+    margin-top: 50px;
+    position: relative;
+    left: 700px;
+}
+@media screen and (max-width: 1200px){
+    .botao {
+        display: inline-block;
+        top: 0;
+        width: 350px;
+        margin-left: -20px;
+        margin-top: 100px;
+    }
+    .smartphone {
+        margin-left: 40px;
+        margin-top: 200px;
+    }
+    .tablet {
+        margin-top: 50px;
+        position: relative;
+        left: 500px;
+    }
+    .conteiner{
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+
+    .smartphone {
+        margin-left: -30px;
+        margin-top: 200px;
+    }
+
+}
+@media screen and (max-width: 1000px){
+
+    .smartphone {
+        margin-left: -170px;
+        margin-top: 450px;
+    }
+
+    .tablet {
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-end;
+        left: 220px;
+    }
+    #altura{
+        margin-top: 100px;
+        width: 400px;
+    }
+    .continuacao{
+        height: 1500px;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+    .botao{
+        width: 300px;
+    }
+    .botao a{
+        padding: 10px 40px;
+    }
+
+    .texto{
+        margin-top: -10px;
+        width: 768px;
+        font-size: 50px;
+        display: block;
+    }
+    .corpo{
+        height: 1200px;
+    }
+    .paragrafo{
+        margin-top: 300px;
+        width: 100vh;
+    }
+    .botao{
+        width: 650px;
+        margin-left: -400px;
+        margin-top: 220px;
+        justify-content: left;
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .botao a{
+        display: inline-block;
+        font-size: 15px;
+
+    }
+    .continuacao{
+        height: 1650px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .smartphone {
+        margin-left: -250px;
+        margin-top: 250px;
+        margin-bottom: 500px;
+
+    }
+    #altura{
+        margin-top: 480px;
+    }
+    .tablet {
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-end;
+        left: 100px;
+    }
+    #top{
+        margin-top: 0;
+    }
+    #top2{
+        margin-top: 120px;
+    }
+}
